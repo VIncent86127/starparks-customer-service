@@ -1,0 +1,41 @@
+{
+  "primary_languages": ["en", "id", "th", "vi", "ms"],
+  "default_language": "en",
+  "auto_detect": true,
+  "response_mapping": {
+    "id": {
+      "skill": "indonesian",
+      "optimizer": "tutur-humanizer",
+      "cultural_adapter": "cross-cultural-communication-engine"
+    },
+    "th": {
+      "skill": "thai",
+      "optimizer": "ecommerce-copy-humanizer-th",
+      "cultural_adapter": "cross-cultural-communication-engine"
+    },
+    "vi": {
+      "skill": "vietnamese",
+      "optimizer": "ecommerce-copy-humanizer-vn",
+      "cultural_adapter": "cross-cultural-communication-engine"
+    },
+    "ms": {
+      "skill": "sea-doc-summarizer",
+      "optimizer": null,
+      "cultural_adapter": "cross-cultural-communication-engine"
+    },
+    "en": {
+      "skill": "multilingual-game-translator",
+      "optimizer": null,
+      "cultural_adapter": "cross-cultural-communication-engine"
+    }
+  },
+  "fallback_chain": {
+    "ms": ["id", "en"],
+    "unsupported": ["en"]
+  },
+  "response_time_target": {
+    "urgent": 30,
+    "normal": 120,
+    "low": 300
+  }
+}

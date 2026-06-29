@@ -1,0 +1,22 @@
+{
+  "bot_token": "YOUR_BOT_TOKEN_HERE",
+  "guild_id": "YOUR_SERVER_ID",
+  "forum_channel_id": "YOUR_FORUM_CHANNEL_ID",
+  "permissions": {
+    "manage_channels": true,
+    "read_messages": true,
+    "send_messages": true,
+    "manage_threads": true,
+    "read_message_history": true
+  },
+  "auto_reply": {
+    "enabled": true,
+    "language_detection": true,
+    "default_language": "en"
+  },
+  "notification": {
+    "new_thread": true,
+    "thread_resolved": true,
+    "escalation_alert": true
+  }
+}
