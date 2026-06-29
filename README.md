@@ -43,7 +43,7 @@ starparks-customer-service/
 - [x] 项目初始化
 - [x] Git仓库创建
 - [x] GitHub同步 ✅
-- [ ] 技能安装
+- [x] 技能安装 ✅
 - [ ] Discord Bot配置
 - [ ] 知识库搭建
 
@@ -75,7 +75,11 @@ starparks-customer-service/
 - ✅ 创建文档（部署指南、技能说明、FAQ模板）
 - ✅ Git仓库初始化
 - ✅ GitHub同步完成
-- 📋 规划技能部署方案
+- ✅ 安装核心技能（10个）
+  - Discord管理：discord-communities, discord-context, discord-project-manager
+  - 东南亚多语言：sea-doc-summarizer, cross-cultural-communication-engine, multilingual-game-translator
+  - 单项语言：indonesian, tutur-humanizer, thai, vietnamese
+- 📋 下一步：Discord Bot配置
 
 ---
 
